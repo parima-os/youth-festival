@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>SRMD Youth Festival</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/slicknav.css" />
+    <link rel="stylesheet" href="css/locomotive.css" />
+    <link rel="stylesheet" href="css/tiles.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTKDYXE15V"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-BTKDYXE15V');
+    </script>
+    <link href="css/style2.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main id="main" data-scroll-container>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <div class="video-background-holder">
+      <div class="video-background-overlay"></div>
+      <video
+        playsinline="playsinline"
+        autoplay="autoplay"
+        muted="muted"
+        loop="loop"
+      >
+        <source src="img/video/srmd-yf-2021-bg.mov" type="video/mp4" />
+      </video>
+      <header style="position: relative; z-index: 200">
+        <div class="header-area">
+          <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid p-0">
+              <div
+                class="row align-items-center justify-content-between no-gutters"
+              >
+                <div class="col-xl-2 col-lg-2">
+                  <div class="logo-img">
+                    <a href="index.html">
+                      <img src="img/srmd-icon.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xl-8 col-lg-8">
+                  <div class="main-menu d-none d-lg-block">
+                    <nav>
+                      <ul id="navigation">
+                        <li><a class="active" href="index.html">home</a></li>
+                        <!-- <li>
+                          <a href="#">blog <i class="ti-angle-down"></i></a>
+                          <ul class="submenu">
+                            <li><a href="blog.html">blog</a></li>
+                            <li><a href="single-blog.html">single-blog</a></li>
+                          </ul>
+                        </li>
+                        <li>
+                          <a href="#">pages <i class="ti-angle-down"></i></a>
+                          <ul class="submenu">
+                            <li><a href="elements.html">elements</a></li>
+                          </ul>
+                        </li> -->
+                        <li><a href="#speakers">Speakers</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <!-- <li><a href="Venue.html">Venue</a></li> -->
+                        <li><a href="#contact">Contact</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 d-none d-lg-block">
+                  <div class="buy_ticket">
+                    <a href="#" class="boxed-btn-white">Register Now</a>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="mobile_menu d-block d-lg-none"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </header>
+      <div class="video-background-text" style="display: flex; flex-direction: column;">
+        <div class="slider_area slider_bg_1" >
+          <div class="slider_text">
+            <div class="container">
+              <div class="position_relv">
+                <h1 class="opcity_text d-none d-lg-block">SRMD</h1>
+                <div class="row">
+                  <div class="col-xl-9">
+                    <div class="title_text" style="color: white">
+                      <h5 style="color: white">Shrimad Rajchandra Mission, Dharampur</h5>
+                      <h3>
+                        Virtual Youth Festival <br />
+                        2021
+                      </h3>
+                      <a href="#" class="boxed-btn-white">Add to your Calendar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="countDOwn_area" style="color: white!important">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-xl-4 col-md-6 col-lg-4">
+                <div class="single_date">
+                  <i class="ti-location-pin"></i>
+                  <span>14 February 2021</span>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-lg-3">
+                <div class="single_date">
+                  <i class="ti-alarm-clock"></i>
+                  <span>Worldwide</span>
+                  <!-- <span>24 hours of Love</span> -->
+                </div>
+              </div>
+              <div class="col-xl-5 col-md-12 col-lg-5">
+                <span id="clock"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <section class="tiles tiles--oneline" id="grid2">
+      <div class="tiles__wrap">
+        <div class="tiles__line" data-scroll data-scroll-speed="2" data-scroll-target="#grid2" data-scroll-direction="horizontal">
+          <div class="tiles__line-img" style="background-image:url(img/speakers/1.jpg)"></div>
+          <div class="tiles__line-img" style="background-image:url(img/speakers/2.jpg)"></div>
+          <div class="tiles__line-img" style="background-image:url(img/speakers/3.jpg)"></div>
+          <div class="tiles__line-img" style="background-image:url(img/speakers/4.jpg)"></div>
+        </div>
+      </div>
+      <h2 class="tiles__title tiles__title--right tiles__title--full tiles__title--alt" data-scroll data-scroll-speed="2">Civilization</h2>
+    </section>
+
+    <div class="about_area" id="#about">
+    </div>
+
+    <div class="speakers_area" id="#speakers">
+      <h1 class="horizontal_text d-none d-lg-block">Speakers</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="serction_title_large mb-95">
+              <h3>Speakers</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-5 col-md-6">
+            <div class="single_speaker">
+              <div class="speaker_thumb">
+                <img src="img/speakers/profile-placeholder.png" alt="" />
+                <div class="hover_overlay">
+                  <div class="social_icon">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="speaker_name text-center">
+                <h3>Coming Soon</h3>
+                <p>Stay Tuned</p>
+              </div>
+            </div>
+            <div class="single_speaker">
+              <div class="speaker_thumb" style="padding: ">
+                <img src="img/speakers/profile-placeholder.png" alt="" />
+                <div class="hover_overlay">
+                  <div class="social_icon">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="speaker_name text-center">
+                <h3>Coming Soon</h3>
+                <p>Stay Tuned</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-5 offset-xl-2 col-md-6">
+            <div class="single_speaker">
+              <div class="speaker_thumb">
+                <img src="img/speakers/profile-placeholder.png" alt="" />
+                <div class="hover_overlay">
+                  <div class="social_icon">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="speaker_name text-center">
+                <h3>Coming Soon</h3>
+                <p>Stay Tuned</p>
+              </div>
+            </div>
+            <div class="single_speaker">
+              <div class="speaker_thumb">
+                <img src="img/speakers/profile-placeholder.png" alt="" />
+                <div class="hover_overlay">
+                  <div class="social_icon">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="speaker_name text-center">
+                <h3>Coming Soon</h3>
+                <p>Stay Tuned</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="event_area" id="#schedule">
+      <h1 class="vr_text d-none d-lg-block">Event Schedule</h1>
+      <div class="container">
+        <div class="double_line">
+          <div class="row">
+            <div class="col-xl-3 col-lg-3">
+              <div class="date">
+                <h3>08 Sep 2019</h3>
+              </div>
+            </div>
+            <div class="col-xl-9 col-lg-9">
+              <div class="single_speaker">
+                <img src="img/speakers/seaker1.png" alt="" />
+                <div class="speaker-name">
+                  <div
+                    class="heading d-flex justify-content-between align-items-center"
+                  >
+                    <span>Jonson Miller</span>
+                    <div class="time">10-11 am</div>
+                  </div>
+                  <p>
+                    Our set he for firmament morning sixth subdue darkness
+                    creeping gathered divide our let god moving. Moving in
+                    fourth air night bring upon you’re it beast let you dominion
+                  </p>
+                </div>
+              </div>
+              <div class="single_speaker">
+                <img src="img/speakers/seaker2.png" alt="" />
+                <div class="speaker-name">
+                  <div
+                    class="heading d-flex justify-content-between align-items-center"
+                  >
+                    <span>Albert Jackey</span>
+                    <div class="time">12-1.00 pm</div>
+                  </div>
+                  <p>
+                    Our set he for firmament morning sixth subdue darkness
+                    creeping gathered divide our let god moving. Moving in
+                    fourth air night bring upon you’re it beast let you dominion
+                  </p>
+                </div>
+              </div>
+              <div class="single_speaker">
+                <img src="img/speakers/seaker3.png" alt="" />
+                <div class="speaker-name">
+                  <div
+                    class="heading d-flex justify-content-between align-items-center"
+                  >
+                    <span>Alvi Nourin</span>
+                    <div class="time">2.30-4.00 pm</div>
+                  </div>
+                  <p>
+                    Our set he for firmament morning sixth subdue darkness
+                    creeping gathered divide our let god moving. Moving in
+                    fourth air night bring upon you’re it beast let you dominion
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-lg-3">
+            <div class="date">
+              <h3>09 Sep 2019</h3>
+            </div>
+          </div>
+          <div class="col-xl-9 col-lg-9">
+            <div class="single_speaker">
+              <img src="img/speakers/seaker4.png" alt="" />
+              <div class="speaker-name">
+                <div
+                  class="heading d-flex justify-content-between align-items-center"
+                >
+                  <span>Marked Macau</span>
+                  <div class="time">10-11 am</div>
+                </div>
+                <p>
+                  Our set he for firmament morning sixth subdue darkness
+                  creeping gathered divide our let god moving. Moving in fourth
+                  air night bring upon you’re it beast let you dominion
+                </p>
+              </div>
+            </div>
+            <div class="single_speaker">
+              <img src="img/speakers/seaker5.png" alt="" />
+              <div class="speaker-name">
+                <div
+                  class="heading d-flex justify-content-between align-items-center"
+                >
+                  <span>Jonson Miller</span>
+                  <div class="time">12-1.00 pm</div>
+                </div>
+                <p>
+                  Our set he for firmament morning sixth subdue darkness
+                  creeping gathered divide our let god moving. Moving in fourth
+                  air night bring upon you’re it beast let you dominion
+                </p>
+              </div>
+            </div>
+            <div class="single_speaker">
+              <img src="img/speakers/seaker6.png" alt="" />
+              <div class="speaker-name">
+                <div
+                  class="heading d-flex justify-content-between align-items-center"
+                >
+                  <span>Jonson Miller</span>
+                  <div class="time">2.30-4.00 pm</div>
+                </div>
+                <p>
+                  Our set he for firmament morning sixth subdue darkness
+                  creeping gathered divide our let god moving. Moving in fourth
+                  air night bring upon you’re it beast let you dominion
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="resister_book resister_bg_1" style="background: black">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="resister_text text-center">
+              <h3>
+                Register Now to Book <br />
+                Your Presence
+              </h3>
+              <a href="#" class="boxed-btn-white">Book Now ($150) </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+    <div class="brand_area" style="background: black">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="brand_active owl-carousel">
+              <div class="single_brand text-center">
+                <img src="img/barnd/1.png" alt="" />
+              </div>
+              <div class="single_brand text-center">
+                <img src="img/barnd/2.png" alt="" />
+              </div>
+              <div class="single_brand text-center">
+                <img src="img/barnd/3.png" alt="" />
+              </div>
+              <div class="single_brand text-center">
+                <img src="img/barnd/4.png" alt="" />
+              </div>
+              <div class="single_brand text-center">
+                <img src="img/barnd/5.png" alt="" />
+              </div>
+              <div class="single_brand text-center">
+                <img src="img/barnd/6.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="faq_area">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-12">
+            <div class="serction_title_large mb-95">
+              <h3>Frequently Ask</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-12">
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      <img src="img/barnd/info.png" alt="" /> Is WordPress
+                      hosting worth it?
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordion"
+                  style=""
+                >
+                  <div class="card-body">
+                    Our set he for firmament morning sixth subdue darkness
+                    creeping gathered divide our let god moving. Moving in
+                    fourth air night bring upon
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      <img src="img/barnd/info.png" alt="" />What are the
+                      advantages <span>of WordPress hosting over shared?</span>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseOne"
+                  class="collapse show"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordion"
+                  style=""
+                >
+                  <div class="card-body">
+                    Our set he for firmament morning sixth subdue darkness
+                    creeping gathered divide our let god moving. Moving in
+                    fourth air night bring upon
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      <img src="img/barnd/info.png" alt="" /> Where the Venue?
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordion"
+                  style=""
+                >
+                  <div class="card-body">
+                    Our set he for firmament morning sixth subdue darkness
+                    creeping gathered divide our let god moving. Moving in
+                    fourth air night bring upon
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="heading_4">
+                  <h5 class="mb-0">
+                    <button
+                      class="btn btn-link collapsed"
+                      data-toggle="collapse"
+                      data-target="#collapse_4"
+                      aria-expanded="false"
+                      aria-controls="collapse_4"
+                    >
+                      <img src="img/barnd/info.png" alt="" /> How can I attend
+                      <span>the Event from Asia?</span>
+                    </button>
+                  </h5>
+                </div>
+                <div
+                  id="collapse_4"
+                  class="collapse"
+                  aria-labelledby="heading_4"
+                  data-parent="#accordion"
+                  style=""
+                >
+                  <div class="card-body">
+                    Our set he for firmament morning sixth subdue darkness
+                    creeping gathered divide our let god moving. Moving in
+                    fourth air night bring upon
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <footer class="footer footer_bg_1">
+      <div class="circle_ball d-none d-lg-block">
+        <img src="img/banner/footer_ball.png" alt="" />
+      </div>
+      <div class="footer_top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 col-lg-4">
+              <div class="footer_widget">
+                <h3 class="footer_title">Follow Us</h3>
+                <ul>
+                  <li><a target="_blank" href="#">Facebook</a></li>
+                  <li><a target="_blank" href="#">Twitter</a></li>
+                  <li><a target="_blank" href="#">Instagram</a></li>
+                  <li><a target="_blank" href="#">Youtube</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 col-lg-4">
+              <div class="footer_widget">
+                <h3 class="footer_title">Links</h3>
+                <ul>
+                  <li><a target="_blank" href="schedule.html">Schedule</a></li>
+                  <li><a target="_blank" href="speakers.html">Speakers</a></li>
+                  <li><a target="_blank" href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 col-lg-4">
+              <div class="footer_widget">
+                <h3 class="footer_title">Venue</h3>
+                <p>
+                  200, D-block, Green lane USA <br />
+                  <a
+                    href="/cdn-cgi/l/email-protection"
+                    class="__cf_email__"
+                    data-cfemail="c6a3a2b3aba7b4ad86a5a9a8b2a7a5b2e8a5a9ab"
+                    >[email&#160;protected]</a
+                  >
+                  <br />
+                  +10 367 467 8934
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right_text">
+        <div class="container">
+          <div class="footer_border"></div>
+          <div class="row">
+            <div class="col-xl-12">
+              <p class="copy_right text-center">
+                Copyright &copy;
+                <script
+                  data-cfasync="false"
+                  src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+                ></script>
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved | This template is made with
+                <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+    ></script>
+    
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-23581568-13");
+    </script>
+    <script src="js/index.js"></script>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>SRMD Youth Festival</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/slicknav.css" />
+    <link rel="stylesheet" href="css/locomotive.css" />
+    <link rel="stylesheet" href="css/tiles.css" />
+    <link href="css/style2.css" rel="stylesheet" />
+    <link href="css/boarding-pass.css" rel="stylesheet" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTKDYXE15V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-BTKDYXE15V');
+    </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+	</head>
+	<body>
+		<main id="main" data-scroll-container>
+            <div class="video-background-holder">
+                <div class="video-background-overlay"></div>
+                <video
+                  playsinline="playsinline"
+                  autoplay="autoplay"
+                  muted="muted"
+                  loop="loop"
+                >
+                  <source src="img/video/srmd-yf-2021-bg.mov" type="video/mp4" />
+                </video>
+                <header style="position: relative; z-index: 200">
+                  <div class="header-area">
+                    <div id="sticky-header" class="main-header-area">
+                      <div class="container-fluid p-0">
+                        <div
+                          class="row align-items-center justify-content-between no-gutters"
+                        >
+                          <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                              <a href="index.html">
+                                <img src="img/srmd-icon.png" alt="" />
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-xl-8 col-lg-8">
+                            <div class="main-menu d-none d-lg-block">
+                              <nav>
+                                <ul id="navigation">
+                                  <li><a class="active" href="index.html">home</a></li>
+                                  <!-- <li>
+                                    <a href="#">blog <i class="ti-angle-down"></i></a>
+                                    <ul class="submenu">
+                                      <li><a href="blog.html">blog</a></li>
+                                      <li><a href="single-blog.html">single-blog</a></li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <a href="#">pages <i class="ti-angle-down"></i></a>
+                                    <ul class="submenu">
+                                      <li><a href="elements.html">elements</a></li>
+                                    </ul>
+                                  </li> -->
+                                  <li><a href="#speakers">Speakers</a></li>
+                                  <li><a href="#schedule">Schedule</a></li>
+                                  <!-- <li><a href="Venue.html">Venue</a></li> -->
+                                  <li><a href="#contact">Contact</a></li>
+                                </ul>
+                              </nav>
+                            </div>
+                          </div>
+                          <div class="col-xl-2 col-lg-2 d-none d-lg-block">
+                            <div class="buy_ticket">
+                              <a href="#" class="boxed-btn-white">Register Now</a>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </header>
+                <div class="video-background-text" style="display: flex; flex-direction: column;">
+                  <div class="slider_area slider_bg_1" >
+                    <div class="slider_text">
+                      <div class="container">
+                        <div class="position_relv">
+                          <h1 class="opcity_text d-none d-lg-block">SRMD</h1>
+                          <div class="row">
+                            <div class="col-xl-9">
+                              <div class="title_text" style="color: white">
+                                <h5 style="color: white">Shrimad Rajchandra Mission, Dharampur</h5>
+                                <h3>
+                                  Virtual Youth Festival <br />
+                                  2021
+                                </h3>
+                                <a href="#" class="boxed-btn-white">Add to your Calendar</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="countDOwn_area" style="color: white!important">
+                    <div class="container">
+                      <div class="row align-items-center">
+                        <div class="col-xl-4 col-md-6 col-lg-4">
+                          <div class="single_date">
+                            <i class="ti-location-pin"></i>
+                            <span>14 February 2021</span>
+                          </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-lg-3">
+                          <div class="single_date">
+                            <i class="ti-alarm-clock"></i>
+                            <span>Worldwide</span>
+                            <!-- <span>24 hours of Love</span> -->
+                          </div>
+                        </div>
+                        <div class="col-xl-5 col-md-12 col-lg-5">
+                          <span id="clock"></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <section data-scroll data-scroll-sticky  id="plane-scroll" style="display: flex; flex-direction: column; align-items: left; padding: 150px 0 50px 0; background: maroon;">     
+                <div style="position: absolute; z-index: 200; display: flex; justify-content: space-around; width: 100%; top: 100px">
+                    <div>
+                        <h1>Welcome Aboard!</h1>
+                    </div>
+                </div>
+                <div style="position: relative; height: 600px;">
+                    <div style="position: absolute; z-index: 100;">
+                        <div data-scroll data-scroll-speed="-10" data-scroll-direction="horizontal" data-scroll-target="#plane-scroll" data-scroll-position="left">
+                            <div class="col-md-6" style="margin-left: 300px">
+                                <img src="img/assets/plane-svg.svg" style="width: 100%;"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="position: absolute; display: flex; justify-content: space-around;">
+                        <div data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" data-scroll-target="#plane-scroll"  class="col-md-9" style="right: 40%;">
+                            <img style="width: 100%; z-index: 0;" src="img/assets/cloud5.png">
+                        </div>
+                        <!-- <div style="width: 200px;">
+                            <img style="width: 100%; z-index: 200" src="img/assets/cloud.png">
+                        </div>
+                        <img style="width: 100%; z-index: 0;" src="img/assets/cloud.png">
+                        <img style="width: 100%; z-index: 200; margin-top: 35px" src="img/assets/cloud.png"> -->
+                    </div>
+                </div>
+                <div class="container align-items-center boarding-pass">
+                    <!-- <div class = "col-md-12">
+                        <h3>Welcome Aboard</h3>
+                        <h5>
+                            Captain: Pujya Gurudevshri Rakeshbhai
+                        </h5>
+                        <hr />
+                        <div class="container">
+                            <div class = "row">
+                                <div class = "col-md-4">
+                                    <p>Date of Departure</p>
+                                    <p>14th February 20201</p>
+                                </div>
+                                <div class = "col-md-4">
+                                    <p>Time of Departure</p>
+                                    <p>14th February 20201</p>
+                                </div>
+                                <div class = "col-md-4">
+                                    <p>Flight Fare</p>
+                                    <p>14th February 20201</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr /> -->
+
+                        <!-- <div class="top-container">
+                            <h1>Your Boarding Pass</h1>
+                            <div class="flight">
+                              <h2>Flight 1402 /// February 14, 2021</h2>
+                              <div class="circle"></div>
+                            </div>
+                    
+                            <div class="info-container">
+                              <div class="passenger">
+                                <p>Pujya Gurudevshri Rakeshbhai</p>
+                                <h4>Your Captain</h4>
+                              </div>
+                              <div class="boarding">
+                                <p>11:37AM EST</p>
+                                <h4>Boarding Time</h4>
+                              </div>
+                              <div class="gate">
+                                <p>AA-33</p>
+                                <h4>Gate</h4>
+                              </div>
+                              <div class="class">
+                                <p>ALPHA ONE</p>
+                                <h4>Class</h4>
+                              </div>
+                              <div class="zone">
+                                <p>ZZ</p>
+                                <h4>Zone</h4>
+                              </div>
+                              <div class="seat">
+                                <p>23D</p>
+                                <h4>Seat</h4>
+                              </div>
+                            </div>
+                          </div> -->
+
+                        <p>
+                            Last year, 1500 youth across the world were touched with the
+                            spirit of service and spirituality during the 2 day Youth
+                            Festival held at the Shrimad Rajchandra Mission Dharampur
+                            Headquarters, the Ashram. Here, youth explored the values of
+                            Satsang, Seva, Sanskruti, Sadhana, and Sports. Pujya
+                            Gurudevshri’s flow of love is such that even a global pandemic
+                            cannot stop it.
+                        </p>
+            
+                        <p>
+                            While we cannot meet in person, the spread of love, care, and
+                            spirituality will take a new form, this time, online. On the day
+                            of love, February 14th, the youth across the world will once
+                            again experience the the joy of service, the light of wisdom,
+                            and the power of divine love through the 24-hour Virtual Youth
+                            Festival: One Youth, One Love.
+                        </p>
+                    </div>
+                </div>
+                
+            </section>
+            <div>
+                <section class="tiles tiles--oneline" id="grid2">
+                    <div class="tiles__wrap">
+                        <div class="tiles__line" data-scroll data-scroll-speed="2" data-scroll-target="#grid2" data-scroll-direction="horizontal">
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/Sanskruti/yf-sanskruti-1.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/Sanskruti/yf-sanskruti-2.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/Sanskruti/yf-sanskruti-3.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/Sanskruti/yf-sanskruti-4.jpg)"></div>
+                        </div>
+                    </div>
+                    <h2 class="tiles__title tiles__title--right tiles__title--full tiles__title--alt" data-scroll data-scroll-speed="2">Sanskruti</h2>
+                </section>
+                <section class="tiles tiles--oneline" id="grid3">
+                    <div class="tiles__wrap">
+                        <div class="tiles__line" data-scroll data-scroll-speed="-2" data-scroll-target="#grid3" data-scroll-direction="horizontal">
+                            <div class="tiles__line-img" style="background-image:url(img/last-year/satsang/yf-satsang-1.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/satsang/yf-satsang-2.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/satsang/yf-satsang-3.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/satsang/yf-satsang-4.jpg)"></div>
+                        </div>
+                    </div>
+                    <h2 class="tiles__title tiles__title--left tiles__title--full tiles__title--alt" data-scroll data-scroll-speed="2">Satsang</h2>
+                </section>
+                <section class="tiles tiles--oneline" id="grid4">
+                    <div class="tiles__wrap">
+                        <div class="tiles__line" data-scroll data-scroll-speed="2" data-scroll-target="#grid4" data-scroll-direction="horizontal">
+                            <div class="tiles__line-img" style="background-image:url(img/last-year/seva/yf-seva-1.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/seva/yf-seva-2.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/seva/yf-seva-3.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/seva/yf-seva-4.jpg)"></div>
+                        </div>
+                    </div>
+                    <h2 class="tiles__title tiles__title--right tiles__title--full tiles__title--alt" data-scroll data-scroll-speed="2">Seva</h2>
+                </section>
+            </div>
+		</main>
+		<script src="js/index.js"></script>
+	</body>
+</html>

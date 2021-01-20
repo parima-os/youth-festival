@@ -1,32 +1,19 @@
 <!DOCTYPE html>
-<html class="no-js" lang="zxx">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>wemeet</title>
+<html lang="en" class="no-js">
+	<head>
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>SRMD Youth Festival</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
-    <!-- <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/themify-icons.css" />
-    <link rel="stylesheet" href="css/nice-select.css" />
-    <link rel="stylesheet" href="css/flaticon.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-   -->
-
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
-    <!-- Libraries CSS Files -->
-    <!-- <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" /> -->
-    <!-- <link href="lib/animate/animate.min.css" rel="stylesheet" /> -->
-    <!-- <link href="lib/venobox/venobox.css" rel="stylesheet" /> -->
-    <!-- <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" /> -->
     <link rel="stylesheet" href="css/slicknav.css" />
+    <link rel="stylesheet" href="css/locomotive.css" />
+    <link rel="stylesheet" href="css/tiles.css" />
+    <link href="css/style2.css" rel="stylesheet" />
+    <!-- <link href="css/boarding-pass.css" rel="stylesheet" /> -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTKDYXE15V"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -35,220 +22,310 @@
 
         gtag('config', 'G-BTKDYXE15V');
     </script>
-    <link href="css/style2.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
-
-    <div class="video-background-holder">
-      <div class="video-background-overlay"></div>
-      <video
-        playsinline="playsinline"
-        autoplay="autoplay"
-        muted="muted"
-        loop="loop"
-      >
-        <source src="img/video/srmd-yf-2021-bg.mov" type="video/mp4" />
-      </video>
-      <header style="position: relative; z-index: 200">
-        <div class="header-area">
-          <div id="sticky-header" class="main-header-area">
-            <div class="container-fluid p-0">
-              <div
-                class="row align-items-center justify-content-between no-gutters"
-              >
-                <div class="col-xl-2 col-lg-2">
-                  <div class="logo-img">
-                    <a href="index.html">
-                      <img src="img/srmd-icon.png" alt="" />
-                    </a>
+    
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+	</head>
+	<body>
+		<main id="main" data-scroll-container>
+            <div class="video-background-holder">
+                <div class="video-background-overlay"></div>
+                <video
+                  playsinline="playsinline"
+                  autoplay="autoplay"
+                  muted="muted"
+                  loop="loop"
+                >
+                  <source src="img/video/srmd-yf-2021-bg.mov" type="video/mp4" />
+                </video>
+                <header style="position: relative; z-index: 200">
+                  <div class="header-area">
+                    <div id="sticky-header" class="main-header-area">
+                      <div class="container-fluid p-0">
+                        <div
+                          class="row align-items-center justify-content-between no-gutters"
+                        >
+                          <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                              <a href="index.html">
+                                <img src="img/srmd-icon.png" alt="" />
+                              </a>
+                            </div>
+                          </div>
+                          <div class="col-xl-8 col-lg-8">
+                            <div class="main-menu d-none d-lg-block">
+                              <nav>
+                                <ul id="navigation">
+                                  <li><a class="active" href="index.html">home</a></li>
+                                  <!-- <li>
+                                    <a href="#">blog <i class="ti-angle-down"></i></a>
+                                    <ul class="submenu">
+                                      <li><a href="blog.html">blog</a></li>
+                                      <li><a href="single-blog.html">single-blog</a></li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <a href="#">pages <i class="ti-angle-down"></i></a>
+                                    <ul class="submenu">
+                                      <li><a href="elements.html">elements</a></li>
+                                    </ul>
+                                  </li> -->
+                                  <li><a href="#speakers">Speakers</a></li>
+                                  <li><a href="#schedule">Schedule</a></li>
+                                  <!-- <li><a href="Venue.html">Venue</a></li> -->
+                                  <li><a href="#contact">Contact</a></li>
+                                </ul>
+                              </nav>
+                            </div>
+                          </div>
+                          <div class="col-xl-2 col-lg-2 d-none d-lg-block">
+                            <div class="buy_ticket">
+                              <a href="#" class="boxed-btn-white">Register Now</a>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </header>
+                <div class="video-background-text" style="display: flex; flex-direction: column;">
+                  <div class="slider_area slider_bg_1" >
+                    <div class="slider_text">
+                      <div class="container">
+                        <div class="position_relv">
+                          <h1 class="opcity_text d-none d-lg-block">SRMD</h1>
+                          <div class="row">
+                            <div class="col-xl-9">
+                              <div class="title_text" style="color: white">
+                                <h5 style="color: white">Shrimad Rajchandra Mission, Dharampur</h5>
+                                <h3>
+                                  Virtual Youth Festival <br />
+                                  2021
+                                </h3>
+                                <a href="#" class="boxed-btn-white">Add to your Calendar</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="countDOwn_area" style="color: white!important">
+                    <div class="container">
+                      <div class="row align-items-center">
+                        <div class="col-xl-4 col-md-6 col-lg-4">
+                          <div class="single_date">
+                            <i class="ti-location-pin"></i>
+                            <span>14 February 2021</span>
+                          </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6 col-lg-3">
+                          <div class="single_date">
+                            <i class="ti-alarm-clock"></i>
+                            <span>Worldwide</span>
+                            <!-- <span>24 hours of Love</span> -->
+                          </div>
+                        </div>
+                        <div class="col-xl-5 col-md-12 col-lg-5">
+                          <span id="clock"></span>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="col-xl-8 col-lg-8">
-                  <div class="main-menu d-none d-lg-block">
-                    <nav>
-                      <ul id="navigation">
-                        <li><a class="active" href="index.html">home</a></li>
-                        <!-- <li>
-                          <a href="#">blog <i class="ti-angle-down"></i></a>
-                          <ul class="submenu">
-                            <li><a href="blog.html">blog</a></li>
-                            <li><a href="single-blog.html">single-blog</a></li>
-                          </ul>
-                        </li>
-                        <li>
-                          <a href="#">pages <i class="ti-angle-down"></i></a>
-                          <ul class="submenu">
-                            <li><a href="elements.html">elements</a></li>
-                          </ul>
-                        </li> -->
-                        <li><a href="#speakers">Speakers</a></li>
-                        <li><a href="#schedule">Schedule</a></li>
-                        <!-- <li><a href="Venue.html">Venue</a></li> -->
-                        <li><a href="#contact">Contact</a></li>
-                      </ul>
-                    </nav>
-                  </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 d-none d-lg-block">
-                  <div class="buy_ticket">
-                    <a href="#" class="boxed-btn-white">Register Now</a>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="mobile_menu d-block d-lg-none"></div>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </header>
-      <div class="slider_area slider_bg_1">
-        <div class="slider_text">
-          <div class="container">
-            <div class="position_relv">
-              <h1 class="opcity_text d-none d-lg-block">SRMD</h1>
-              <div class="row">
-                <div class="col-xl-9">
-                  <div class="title_text" style="color: white">
-                    <h5>Shrimad Rajchandra Mission, Dharampur</h5>
-                    <h3>
-                      Virtual Youth Festival <br />
-                      2021
-                    </h3>
-                    <a href="#" class="boxed-btn-white">Add to your Calendar</a>
-                  </div>
+            <section data-scroll data-scroll-sticky  id="plane-scroll" style="display: flex; flex-direction: column; align-items: left; padding: 150px 0 50px 0; background: #00003f;>     
+                <div style="position: absolute; z-index: 200; display: flex; justify-content: space-around; width: 100%; top: 300px;">
+                    <div style="padding: 50px;">
+                        <h1 style="text-align: center; color: white"><b style="color:lightskyblue">WELCOME</b> <br/> ABOARD!</h1>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="countDOwn_area">
-          <div class="container">
-            <div class="row align-items-center">
-              <div class="col-xl-4 col-md-6 col-lg-4">
-                <div class="single_date">
-                  <i class="ti-location-pin"></i>
-                  <span>14 February 2021</span>
-                </div>
-              </div>
-              <div class="col-xl-3 col-md-6 col-lg-3">
-                <div class="single_date">
-                  <i class="ti-alarm-clock"></i>
-                  <span>Worldwide</span>
-                  <!-- <span>24 hours of Love</span> -->
-                </div>
-              </div>
-              <div class="col-xl-5 col-md-12 col-lg-5">
-                <span id="clock"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+                <div style="position: relative; height: 500px;">
+                    <div style="position: absolute; z-index: 100;">
+                        <div data-scroll data-scroll-speed="-10" data-scroll-direction="horizontal" data-scroll-target="#plane-scroll" data-scroll-position="left">
+                            <div class="col-md-6" style="margin-left: 600px">
+                                <img src="img/assets/plane4.png" style="width: 100%"/>
+                            </div>
+                        </div>
+                    </div>
 
-    <!-- <div
-      class="slider_area slider_bg_1"
-      style="background: green; background-size: cover"
-    >
-      <div class="slider_text">
-        <div class="container">
-          <div class="position_relv">
-            <h1 class="opcity_text d-none d-lg-block">SRMD</h1>
-            <div class="row">
-              <div class="col-xl-9">
-                <div class="title_text">
-                  <h5>Shrimad Rajchandra Mission, Dharampur</h5>
-                  <h3>
-                    Virtual Youth Festival <br />
-                    2021
-                  </h3>
-                  <a href="#" class="boxed-btn-white">Add to your Calendar</a>
+                    <div style="position: absolute; display: flex; justify-content: space-around;">
+                        <div data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" data-scroll-target="#plane-scroll"  class="col-md-9" style="right: 40%;">
+                            <img style="width: 100%; z-index: 0;" src="img/assets/cloud2.png">
+                        </div>
+                        <!-- <div style="width: 200px;">
+                            <img style="width: 100%; z-index: 200" src="img/assets/cloud.png">
+                        </div>
+                        <img style="width: 100%; z-index: 0;" src="img/assets/cloud.png">
+                        <img style="width: 100%; z-index: 200; margin-top: 35px" src="img/assets/cloud.png"> -->
+                    </div>
+
+                    <div style="position: absolute; display: flex; justify-content: space-around;">
+                        <div data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal" data-scroll-target="#plane-scroll"  class="col-md-9" style="left: 40%;">
+                            <img style="width: 100%; z-index: 0;" src="img/assets/cloud2.png">
+                        </div>
+                        <!-- <div style="width: 200px;">
+                            <img style="width: 100%; z-index: 200" src="img/assets/cloud.png">
+                        </div>
+                        <img style="width: 100%; z-index: 0;" src="img/assets/cloud.png">
+                        <img style="width: 100%; z-index: 200; margin-top: 35px" src="img/assets/cloud.png"> -->
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="countDOwn_area">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-xl-4 col-md-6 col-lg-4">
-              <div class="single_date">
-                <i class="ti-location-pin"></i>
-                <span>14 February 2021</span>
-              </div>
-            </div>
-            <div class="col-xl-3 col-md-6 col-lg-3">
-              <div class="single_date">
-                <i class="ti-alarm-clock"></i>
-                <span>Worldwide</span>
-              </div>
-            </div>
-            <div class="col-xl-5 col-md-12 col-lg-5">
-              <span id="clock"></span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
 
-    <div class="about_area" id="#about">
-      <!-- <div class="shape-1 d-none d-xl-block">
-        <img src="img/sample-img.png" alt="" />
-      </div>
-      <div class="shape-2 d-none d-xl-block">
-        <img src="img/sample-img.png" alt="" />
-      </div> -->
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-6 col-md-6">
-            <div class="about_thumb">
-              <img src="img/sample-img.png" alt="" />
-            </div>
-          </div>
-          <div class="col-xl-5 offset-xl-1 col-md-6">
-            <div class="about_info">
-              <div class="section_title">
-                <span class="sub_heading">Welcome To</span>
-                <h3>
-                  One Youth <br />
-                  One Love <br />
-                </h3>
-              </div>
-              <p>
-                Last year, 1500 youth across the world were touched with the
-                spirit of service and spirituality during the 2 day Youth
-                Festival held at the Shrimad Rajchandra Mission Dharampur
-                Headquarters, the Ashram. Here, youth explored the values of
-                Satsang, Seva, Sanskruti, Sadhana, and Sports. Pujya
-                Gurudevshri’s flow of love is such that even a global pandemic
-                cannot stop it.
-              </p>
+                <div class="container align-items-center boarding-pass">
+                    <div class = "col-md-12">
+                        <h3 style="color: white; text-align: center;">
+                            Your Captain: Pujya Gurudevshri Rakeshbhai
+                        </h3>
+                        <hr style="background: white" />
+                        <div class="container">
+                            <div class = "row">
+                                <div class = "col-md-4">
+                                    <p>Date of Departure</p>
+                                    <p class="highlight">14th February 20201</p>
+                                </div>
+                                <div class = "col-md-4">
+                                    <p>Time of Departure</p>
+                                    <p class="highlight">8AM ET/IST/GMT</p>
+                                </div>
+                                <div class = "col-md-4">
+                                    <p>Flight Fare</p>
+                                    <p class="highlight">$10 USD</p>
+                                </div>
+                            </div>
+                        </div>
 
-              <p>
-                While we cannot meet in person, the spread of love, care, and
-                spirituality will take a new form, this time, online. On the day
-                of love, February 14th, the youth across the world will once
-                again experience the the joy of service, the light of wisdom,
-                and the power of divine love through the 24-hour Virtual Youth
-                Festival: One Youth, One Love.
-              </p>
-              <a href="#" class="boxed-btn-red">Register Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+                        <hr style="background: white"  />
 
-    <div class="speakers_area" id="#speakers">
+                        <div class="container">
+                            <h4 style="color: white; text-align: center;">
+                                In Flight Experience
+                            </h4>
+                            <div class = "row">    
+                                <div class = "col-md-4">
+                                    <i class="fa fa-facebook"></i>
+                                    <p class="highlight">World Renowned Speakers</p>
+                                </div>
+                                <div class = "col-md-4">
+                                    <i class="fa fa-facebook"></i>
+                                    <p class="highlight">Interactive Panel Discussions, Seminars and Workshops</p>
+                                </div>
+                                <div class = "col-md-4">
+                                    <i class="fa fa-facebook"></i>
+                                    <p class="highlight">Virtual Booths & Exhibitions</p>
+                                </div>
+                            </div>
+                            <div class = "row">    
+                                <div class = "col-md-4">
+                                    <i class="fa fa-facebook"></i>
+                                    <p class="highlight">Live Concert, Games, and Quizzes</p>
+                                </div>
+                                <div class = "col-md-4">
+                                    <i class="fa fa-facebook"></i>
+                                    <p class="highlight">Meditation, yoga, and Bootcamp session</p>
+                                </div>
+                                <div class = "col-md-4">
+                                    <i class="fa fa-facebook"></i>
+                                    <p class="highlight">Masterclass in career development</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="top-container">
+                            <h1>Your Boarding Pass</h1>
+                            <div class="flight">
+                              <h2>Flight 1402 /// February 14, 2021</h2>
+                              <div class="circle"></div>
+                            </div>
+                    
+                            <div class="info-container">
+                              <div class="passenger">
+                                <p>Pujya Gurudevshri Rakeshbhai</p>
+                                <h4>Your Captain</h4>
+                              </div>
+                              <div class="boarding">
+                                <p>11:37AM EST</p>
+                                <h4>Boarding Time</h4>
+                              </div>
+                              <div class="gate">
+                                <p>AA-33</p>
+                                <h4>Gate</h4>
+                              </div>
+                              <div class="class">
+                                <p>ALPHA ONE</p>
+                                <h4>Class</h4>
+                              </div>
+                              <div class="zone">
+                                <p>ZZ</p>
+                                <h4>Zone</h4>
+                              </div>
+                              <div class="seat">
+                                <p>23D</p>
+                                <h4>Seat</h4>
+                              </div>
+                            </div>
+                          </div> -->
+
+                        <p>
+                            Last year, 1500 youth across the world were touched with the
+                            spirit of service and spirituality during the 2 day Youth
+                            Festival held at the Shrimad Rajchandra Mission Dharampur
+                            Headquarters, the Ashram. Here, youth explored the values of
+                            Satsang, Seva, Sanskruti, Sadhana, and Sports. Pujya
+                            Gurudevshri’s flow of love is such that even a global pandemic
+                            cannot stop it.
+                        </p>
+            
+                        <p>
+                            While we cannot meet in person, the spread of love, care, and
+                            spirituality will take a new form, this time, online. On the day
+                            of love, February 14th, the youth across the world will once
+                            again experience the the joy of service, the light of wisdom,
+                            and the power of divine love through the 24-hour Virtual Youth
+                            Festival: One Youth, One Love.
+                        </p>
+                    </div>
+                </div>
+                
+            </section>
+            <div>
+                <section class="tiles tiles--oneline" id="grid2">
+                    <div class="tiles__wrap">
+                        <div class="tiles__line" data-scroll data-scroll-speed="2" data-scroll-target="#grid2" data-scroll-direction="horizontal">
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/Sanskruti/yf-sanskruti-1.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/Sanskruti/yf-sanskruti-2.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/Sanskruti/yf-sanskruti-3.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/Sanskruti/yf-sanskruti-4.jpg)"></div>
+                        </div>
+                    </div>
+                    <h2 class="tiles__title tiles__title--right tiles__title--full tiles__title--alt" data-scroll data-scroll-speed="2">Love your roots</h2> <!-- love your roots -->
+                </section>
+                <section class="tiles tiles--oneline" id="grid3">
+                    <div class="tiles__wrap">
+                        <div class="tiles__line" data-scroll data-scroll-speed="-2" data-scroll-target="#grid3" data-scroll-direction="horizontal">
+                            <div class="tiles__line-img" style="background-image:url(img/last-year/satsang/yf-satsang-1.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/satsang/yf-satsang-2.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/satsang/yf-satsang-3.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/satsang/yf-satsang-4.jpg)"></div>
+                        </div>
+                    </div>
+                    <h2 class="tiles__title tiles__title--left tiles__title--full tiles__title--alt" data-scroll data-scroll-speed="2">Love growth (Satsang)</h2> <!-- love yourself -->
+                </section>
+                <section class="tiles tiles--oneline" id="grid4">
+                    <div class="tiles__wrap">
+                        <div class="tiles__line" data-scroll data-scroll-speed="2" data-scroll-target="#grid4" data-scroll-direction="horizontal">
+                            <div class="tiles__line-img" style="background-image:url(img/last-year/seva/yf-seva-1.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/seva/yf-seva-2.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/seva/yf-seva-3.jpg)"></div>
+                        <div class="tiles__line-img" style="background-image:url(img/last-year/seva/yf-seva-4.jpg)"></div>
+                        </div>
+                    </div>
+                    <h2 class="tiles__title tiles__title--right tiles__title--full tiles__title--alt" data-scroll data-scroll-speed="2">Love all (Sevs)</h2>
+                </section>
+                <!-- love the game -->
+            </div>
+            <div class="speakers_area" id="#speakers">
       <h1 class="horizontal_text d-none d-lg-block">Speakers</h1>
       <div class="container">
         <div class="row">
@@ -468,278 +545,7 @@
         </div>
       </div>
     </div>
-    <!-- 
-    <div class="brand_area" style="background: black">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="brand_active owl-carousel">
-              <div class="single_brand text-center">
-                <img src="img/barnd/1.png" alt="" />
-              </div>
-              <div class="single_brand text-center">
-                <img src="img/barnd/2.png" alt="" />
-              </div>
-              <div class="single_brand text-center">
-                <img src="img/barnd/3.png" alt="" />
-              </div>
-              <div class="single_brand text-center">
-                <img src="img/barnd/4.png" alt="" />
-              </div>
-              <div class="single_brand text-center">
-                <img src="img/barnd/5.png" alt="" />
-              </div>
-              <div class="single_brand text-center">
-                <img src="img/barnd/6.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- <div class="faq_area">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="serction_title_large mb-95">
-              <h3>Frequently Ask</h3>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-12">
-            <div id="accordion">
-              <div class="card">
-                <div class="card-header" id="headingTwo">
-                  <h5 class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      data-toggle="collapse"
-                      data-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                    >
-                      <img src="img/barnd/info.png" alt="" /> Is WordPress
-                      hosting worth it?
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapseTwo"
-                  class="collapse"
-                  aria-labelledby="headingTwo"
-                  data-parent="#accordion"
-                  style=""
-                >
-                  <div class="card-body">
-                    Our set he for firmament morning sixth subdue darkness
-                    creeping gathered divide our let god moving. Moving in
-                    fourth air night bring upon
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingOne">
-                  <h5 class="mb-0">
-                    <button
-                      class="btn btn-link"
-                      data-toggle="collapse"
-                      data-target="#collapseOne"
-                      aria-expanded="true"
-                      aria-controls="collapseOne"
-                    >
-                      <img src="img/barnd/info.png" alt="" />What are the
-                      advantages <span>of WordPress hosting over shared?</span>
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapseOne"
-                  class="collapse show"
-                  aria-labelledby="headingOne"
-                  data-parent="#accordion"
-                  style=""
-                >
-                  <div class="card-body">
-                    Our set he for firmament morning sixth subdue darkness
-                    creeping gathered divide our let god moving. Moving in
-                    fourth air night bring upon
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="headingThree">
-                  <h5 class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      data-toggle="collapse"
-                      data-target="#collapseThree"
-                      aria-expanded="false"
-                      aria-controls="collapseThree"
-                    >
-                      <img src="img/barnd/info.png" alt="" /> Where the Venue?
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapseThree"
-                  class="collapse"
-                  aria-labelledby="headingThree"
-                  data-parent="#accordion"
-                  style=""
-                >
-                  <div class="card-body">
-                    Our set he for firmament morning sixth subdue darkness
-                    creeping gathered divide our let god moving. Moving in
-                    fourth air night bring upon
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" id="heading_4">
-                  <h5 class="mb-0">
-                    <button
-                      class="btn btn-link collapsed"
-                      data-toggle="collapse"
-                      data-target="#collapse_4"
-                      aria-expanded="false"
-                      aria-controls="collapse_4"
-                    >
-                      <img src="img/barnd/info.png" alt="" /> How can I attend
-                      <span>the Event from Asia?</span>
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapse_4"
-                  class="collapse"
-                  aria-labelledby="heading_4"
-                  data-parent="#accordion"
-                  style=""
-                >
-                  <div class="card-body">
-                    Our set he for firmament morning sixth subdue darkness
-                    creeping gathered divide our let god moving. Moving in
-                    fourth air night bring upon
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
-    <footer class="footer footer_bg_1">
-      <div class="circle_ball d-none d-lg-block">
-        <img src="img/banner/footer_ball.png" alt="" />
-      </div>
-      <div class="footer_top">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-4 col-md-4 col-lg-4">
-              <div class="footer_widget">
-                <h3 class="footer_title">Follow Us</h3>
-                <ul>
-                  <li><a target="_blank" href="#">Facebook</a></li>
-                  <li><a target="_blank" href="#">Twitter</a></li>
-                  <li><a target="_blank" href="#">Instagram</a></li>
-                  <li><a target="_blank" href="#">Youtube</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-4 col-md-4 col-lg-4">
-              <div class="footer_widget">
-                <h3 class="footer_title">Links</h3>
-                <ul>
-                  <li><a target="_blank" href="schedule.html">Schedule</a></li>
-                  <li><a target="_blank" href="speakers.html">Speakers</a></li>
-                  <li><a target="_blank" href="contact.html">Contact</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-4 col-md-4 col-lg-4">
-              <div class="footer_widget">
-                <h3 class="footer_title">Venue</h3>
-                <p>
-                  200, D-block, Green lane USA <br />
-                  <a
-                    href="/cdn-cgi/l/email-protection"
-                    class="__cf_email__"
-                    data-cfemail="c6a3a2b3aba7b4ad86a5a9a8b2a7a5b2e8a5a9ab"
-                    >[email&#160;protected]</a
-                  >
-                  <br />
-                  +10 367 467 8934
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="copy-right_text">
-        <div class="container">
-          <div class="footer_border"></div>
-          <div class="row">
-            <div class="col-xl-12">
-              <p class="copy_right text-center">
-                Copyright &copy;
-                <script
-                  data-cfasync="false"
-                  src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
-                ></script>
-                <script>
-                  document.write(new Date().getFullYear());
-                </script>
-                All rights reserved | This template is made with
-                <i class="fa fa-heart-o" aria-hidden="true"></i> by
-                <a href="https://colorlib.com" target="_blank">Colorlib</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.countdown.js"></script>
-    <script src="js/plugins.js"></script>
-
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <script src="js/main.js"></script> -->
-
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-23581568-13");
-    </script>
-  </body>
+		</main>
+        <script src="js/index.js"></script>
+	</body>
 </html>
