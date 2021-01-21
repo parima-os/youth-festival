@@ -284,6 +284,7 @@ main {
 	margin: var(--tile-margin);
 	background-size: cover;
 	background-position: 50% 50%;
+	opacity: .5;
 }
 
 .tiles--perspective .tiles__line-img {
@@ -349,13 +350,15 @@ main {
 	margin: 0;
 	line-height: 0.8;
 	/* font-family: span, serif; */
-	font-weight: 700;
+	/* font-weight: 700; */
 	font-style: normal;
 }
 
 .tiles__title--alt {
 	font-size: 9vw;
-	font-size: clamp(2rem, 9vw, 7.25rem);
+	font-size: clamp(2rem, 9vw, 3rem);
+	color: #DCDCDC;
+	/* font-size: clamp(2rem, 9vw, 7.25rem); */
 }
 
 .tiles__title--intro {

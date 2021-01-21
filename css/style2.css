@@ -1,19 +1,76 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,700i,800,800i,900&display=swap";
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,500i,600,700,700i,800,800i,900&display=swap";
 
+#join-us{
+  background: #111;
+  padding: 200px 0;
+}
+
+
 #plane-scroll{
-    background-image:
+    /* background-image:
       -webkit-linear-gradient(#757ECB 0%, #C6E4EE 40%,    #C6E4EE 100%);
     background-image:
       -moz-linear-gradient( #757ECB 0%, #C6E4EE 40%,    #C6E4EE 100%);
     background-image:
       -o-linear-gradient(#757ECB 0%, #C6E4EE 40%,    #C6E4EE 100%);
     background-image:
-      linear-gradient(#C6E4EE 0%, #C6E4EE 40%,  #757ECB 100%);
+      linear-gradient(#C6E4EE 0%, #C6E4EE 40%,  #757ECB 100%); */
+    padding-bottom: 100px;
+}
+
+.effect7
+{
+    position:relative;
+    -webkit-box-shadow:0 10px 20px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 10px 20px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 10px 20px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
 .boarding-pass p.highlight{
   color: white!important;
+}
+
+.highlight-title {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.highlight.big-font{
+  font-size: 1.5em;
+}
+
+.in-flight-experience{
+  font-size: 1em;
+}
+
+.in-flight-experience .col-md-4{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.in-flight-experience .img-container{
+  height: 100px;
+}
+
+.in-flight-experience .in-flight-experience{
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+.icon-desc{
+  font-size: 1.1em;
+  height: 40px;
+  font-weight: 500;
+  color: white;
+}
+
+.in-flight-experience img{
+  width: 100px;
 }
 
 .tiles {
@@ -869,7 +926,7 @@ h3 {
 
 @media (min-width: 992px) {
   .header-area .main-header-area .logo-img img {
-    width: 100px;
+    width: 200px;
   }
 }
 
@@ -904,6 +961,12 @@ h3 {
   font-family: poppins, sans-serif;
   position: relative;
   text-transform: capitalize;
+  text-decoration: none;
+}
+
+.header-area .main-header-area .main-menu ul li a:hover,
+.header-area .main-header-area .main-menu ul li a:focus {
+  color: maroon!important;
 }
 
 @media (min-width: 992px){
@@ -1644,7 +1707,10 @@ h3 {
   position: relative;
   overflow: hidden;
   margin: 0 auto;
-  max-height: 200px;
+  height: 400px;
+  object-fit: cover;
+  border: 5px solid black;
+  padding: 10px;
 }
 
 .speakers_area .single_speaker .speaker_thumb img {
@@ -1717,9 +1783,10 @@ h3 {
 
 .speakers_area .single_speaker .speaker_name p {
   margin-bottom: 0;
-  font-size: 16px;
-  color: red;
+  font-size: .8em;
   font-weight: 400;
+  line-height: 1.2em;
+  height: 140px;
 }
 
 .speakers_area .single_speaker:hover .hover_overlay {
