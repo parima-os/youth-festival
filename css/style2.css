@@ -4,6 +4,21 @@
 #join-us{
   background: #111;
   padding: 200px 0;
+  transition-duration: 1000ms;
+}
+
+.bg-blue{
+  background: #00003f!important;
+  opacity: 1!important;
+  transition-duration: 1000ms;
+  /*transition:cubic-bezier(0.86, 0, 0.07, 1);*/
+}
+
+.bg-gray{
+  background: #111!important;
+  opacity: 1!important;
+  transition-duration: 1000ms;
+  /*transition:cubic-bezier(0.86, 0, 0.07, 1);*/
 }
 
 
@@ -17,6 +32,9 @@
     background-image:
       linear-gradient(#C6E4EE 0%, #C6E4EE 40%,  #757ECB 100%); */
     padding-bottom: 100px;
+    transition-duration: 1000ms;
+    position: relative;
+    margin-bottom: -10px;
 }
 
 .effect7
@@ -72,14 +90,6 @@
 .in-flight-experience img{
   width: 100px;
 }
-
-.tiles {
-	--tiles-height: 52vw;
-	height: var(--tiles-height);
-	position: relative;
-	overflow: hidden;
-}
-
 
 
 .tiles--oneline {
@@ -172,6 +182,7 @@
   background-color: black;
   opacity: 0.5;
   z-index: 1;
+  transition-duration: 1000ms;
 }
 
 .speakers_area

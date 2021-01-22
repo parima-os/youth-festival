@@ -27,15 +27,16 @@
 	</head>
 	<body>
 		<main id="main" data-scroll-container>
-            <div class="video-background-holder">
-                <div class="video-background-overlay"></div>
+            <div class="video-background-holder" >
+                <div class="video-background-overlay" id="video-overlay"></div>
                 <video
                   playsinline="playsinline"
                   autoplay="autoplay"
                   muted="muted"
                   loop="loop"
+                  id="video"
                 >
-                  <source src="img/video/srmd-yf-2021-bg.mov" type="video/mp4" />
+                  <source src="img/yf-video.m4v" type="video/mp4" />
                 </video>
                 <header style="position: relative; z-index: 200">
                   <div class="header-area">
@@ -100,8 +101,8 @@
                               <div class="title_text" style="color: white">
                                 <h5 style="color: white">Shrimad Rajchandra Mission, Dharampur</h5>
                                 <h3>
-                                  Virtual Youth Festival <br />
-                                  2021
+                                  Global Youth Festival <br />
+                                  14 Feb 2021
                                 </h3>
                                 <a href="#" class="boxed-btn-white">Register Now</a>
                               </div>
@@ -111,31 +112,10 @@
                       </div>
                     </div>
                   </div>
-                  <div class="countDOwn_area" style="color: white!important">
-                    <div class="container">
-                      <div class="row align-items-center">
-                        <div class="col-xl-4 col-md-6 col-lg-4">
-                          <div class="single_date">
-                            <i class="ti-location-pin"></i>
-                            <span>14 February 2021</span>
-                          </div>
-                        </div>
-                        <div class="col-xl-3 col-md-6 col-lg-3">
-                          <div class="single_date">
-                            <i class="ti-alarm-clock"></i>
-                            <span>Worldwide</span>
-                            <!-- <span>24 hours of Love</span> -->
-                          </div>
-                        </div>
-                        <div class="col-xl-5 col-md-12 col-lg-5">
-                          <span id="clock"></span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
             </div>
-            <section data-scroll data-scroll-sticky  id="plane-scroll" style="display: flex; flex-direction: column; align-items: left; padding: 300px 0 50px 0; background: #00003f;">     
+            <section data-scroll data-scroll-repeat='true' data-scroll-call="bg-blue"  id="plane-scroll" style="display: flex; flex-direction: column; align-items: left; padding: 300px 0 50px 0; background: #00003f;">     
                 <div style="position: absolute; z-index: 200; display: flex; justify-content: space-around; width: 100%; top: 100px;">
                     <div style="padding: 50px;">
                         <h1 style="text-align: center; color: white"><b style="color:lightskyblue">WELCOME</b> <br/> ABOARD!</h1>
@@ -301,7 +281,7 @@
                 </div>
                 
             </section>
-            <section id="join-us" style="background: #111;">
+            <section id="join-us" data-scroll data-scroll-repeat='true' data-scroll-call="bg-gray" style="background: #111;">
               <div class="container">
                 <div class="row col-md-7">
                   <p>OUR MISSION:</p>
@@ -364,7 +344,7 @@
                   </div>
                 </div>
                 <div class="row" id="pujya-gurudevshri" style="background-color: #DCDCDC; border: 20px solid #000000; padding: 50px; margin-bottom: 100px; display: flex; align-items:center; flex-direction: row">
-                  <div data-scroll data-scroll-speed="1" class="col-lg-6 bapa-image">
+                  <div data-scroll data-scroll-speed="1.5" class="col-lg-6 bapa-image">
                     <img src="img/yf-speakers/Pujya-Gurudevshri-3.jpg" style="width: 100%" />
                   </div>
                   <div class="col-lg-6">
@@ -480,145 +460,44 @@ Under Pujya Gurudevshri's personal mentorship, contemporary youth are fast-evolv
                 </div>
               </div>
             </div>
-
-    <div class="event_area" id="#schedule">
-      <h1 class="vr_text d-none d-lg-block">Event Schedule</h1>
-      <div class="container">
-        <div class="double_line">
-          <div class="row">
-            <div class="col-xl-3 col-lg-3">
-              <div class="date">
-                <h3>08 Sep 2019</h3>
-              </div>
-            </div>
-            <div class="col-xl-9 col-lg-9">
-              <div class="single_speaker">
-                <img src="img/speakers/seaker1.png" alt="" />
-                <div class="speaker-name">
-                  <div
-                    class="heading d-flex justify-content-between align-items-center"
-                  >
-                    <span>Jonson Miller</span>
-                    <div class="time">10-11 am</div>
-                  </div>
-                  <p>
-                    Our set he for firmament morning sixth subdue darkness
-                    creeping gathered divide our let god moving. Moving in
-                    fourth air night bring upon you’re it beast let you dominion
-                  </p>
-                </div>
-              </div>
-              <div class="single_speaker">
-                <img src="img/speakers/seaker2.png" alt="" />
-                <div class="speaker-name">
-                  <div
-                    class="heading d-flex justify-content-between align-items-center"
-                  >
-                    <span>Albert Jackey</span>
-                    <div class="time">12-1.00 pm</div>
-                  </div>
-                  <p>
-                    Our set he for firmament morning sixth subdue darkness
-                    creeping gathered divide our let god moving. Moving in
-                    fourth air night bring upon you’re it beast let you dominion
-                  </p>
-                </div>
-              </div>
-              <div class="single_speaker">
-                <img src="img/speakers/seaker3.png" alt="" />
-                <div class="speaker-name">
-                  <div
-                    class="heading d-flex justify-content-between align-items-center"
-                  >
-                    <span>Alvi Nourin</span>
-                    <div class="time">2.30-4.00 pm</div>
-                  </div>
-                  <p>
-                    Our set he for firmament morning sixth subdue darkness
-                    creeping gathered divide our let god moving. Moving in
-                    fourth air night bring upon you’re it beast let you dominion
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xl-3 col-lg-3">
-            <div class="date">
-              <h3>09 Sep 2019</h3>
-            </div>
-          </div>
-          <div class="col-xl-9 col-lg-9">
-            <div class="single_speaker">
-              <img src="img/speakers/seaker4.png" alt="" />
-              <div class="speaker-name">
-                <div
-                  class="heading d-flex justify-content-between align-items-center"
-                >
-                  <span>Marked Macau</span>
-                  <div class="time">10-11 am</div>
-                </div>
-                <p>
-                  Our set he for firmament morning sixth subdue darkness
-                  creeping gathered divide our let god moving. Moving in fourth
-                  air night bring upon you’re it beast let you dominion
-                </p>
-              </div>
-            </div>
-            <div class="single_speaker">
-              <img src="img/speakers/seaker5.png" alt="" />
-              <div class="speaker-name">
-                <div
-                  class="heading d-flex justify-content-between align-items-center"
-                >
-                  <span>Jonson Miller</span>
-                  <div class="time">12-1.00 pm</div>
-                </div>
-                <p>
-                  Our set he for firmament morning sixth subdue darkness
-                  creeping gathered divide our let god moving. Moving in fourth
-                  air night bring upon you’re it beast let you dominion
-                </p>
-              </div>
-            </div>
-            <div class="single_speaker">
-              <img src="img/speakers/seaker6.png" alt="" />
-              <div class="speaker-name">
-                <div
-                  class="heading d-flex justify-content-between align-items-center"
-                >
-                  <span>Jonson Miller</span>
-                  <div class="time">2.30-4.00 pm</div>
-                </div>
-                <p>
-                  Our set he for firmament morning sixth subdue darkness
-                  creeping gathered divide our let god moving. Moving in fourth
-                  air night bring upon you’re it beast let you dominion
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="resister_book resister_bg_1" style="background: black">
       <div class="container">
-        <div class="row">
+        <div class="row" >
           <div class="col-xl-12">
             <div class="resister_text text-center">
               <h3>
                 Register Now to Book <br />
                 Your Presence
               </h3>
-              <a href="#" class="boxed-btn-white">Book Now ($150) </a>
+              <a href="#" class="boxed-btn-white">Book Now () </a>
             </div>
           </div>
         </div>
+        <div class="row offset-md-2 col-md-8" style="width: 100% text-align: center; font-weight: 400; padding: 30px">
+          <h5 style="text-align: center; color: white; font-weight: 600;">REGISTRATION PROCEEDS FROM THE SRMD VIRTUAL YOUTH FESTIVAL 2021 go directly towards our Women Empowerment Programme, Raj Uphaar.</h5>
+        </div>
+      </div>
+      <section class="tiles tiles--small" id="raj-uphaar-grid">
+				<div class="tiles__wrap"></div>
+        <div class="tiles__line">
+          <div class="tiles__line-img" style="background-image:url(img/raj-amrut/raj-uphaar-1.jpg)" data-scroll data-scroll-speed="1" data-scroll-target="#raj-uphaar-grid"></div>
+          <div class="tiles__line-img" style="background-image:url(img/raj-amrut/raj-uphaar-2.jpg)" data-scroll data-scroll-speed="-1" data-scroll-target="#raj-uphaar-grid"></div>
+          <div class="tiles__line-img" style="background-image:url(img/raj-amrut/raj-uphaar-3.jpg)" data-scroll data-scroll-speed="1" data-scroll-target="#raj-uphaar-grid"></div>
+          <div class="tiles__line-img" style="background-image:url(img/raj-amrut/raj-uphaar-4.jpg)" data-scroll data-scroll-speed="-1" data-scroll-target="#raj-uphaar-grid"></div>
+          <div class="tiles__line-img" style="background-image:url(img/raj-amrut/raj-uphaar-5.jpg)" data-scroll data-scroll-speed="1" data-scroll-target="#raj-uphaar-grid"></div>
+        </div>
+			</section>
+      <div class="container" style="padding: 50px 0; color: white;">
+        <div class ="row">
+          <h2 style="text-align: center; color: white; font-weight: 600; padding-top: 20px;">About the Cause</h2>
+          <h5 class= "offset-md-2 col-md-8" style="text-align: center; color: white; font-weight: 600; padding: 20px 0;">To uplift the status of women across villages by providing adequate medical facilities, opportunities for education and undertaking activities to make them self-reliant.</h5>
+          <p>Raj Uphaar is an initiative of Shrimad Rajchandra Love and Care (SRLC), the charitable arm of Shrimad Rajchandra Mission Dharampur. SRLC enjoys Special Consultative Status with the United Nations Economic and Social Council since 2020 and Raj Uphaar promotes UNDP’s sustainable development goal of Gender Equality.</p>
+          <p>Raj Uphaar supports over 135 underprivileged tribal women in their quest towards attaining self-reliance and a respectable source of income. We offer them end-to-end support by providing employment opportunities, skill training, raw material and equipment, safe workplaces, as well as product marketing and distribution. These talented and dedicated women produce more than 100 desserts, snacks, fragrances and utility products for your home.
+          </p>
+        </div>
       </div>
     </div>
-		</main>
+	</main>
         <script src="js/index.js"></script>
 	</body>
 </html>
