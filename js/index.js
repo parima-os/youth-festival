@@ -1,15 +1,30 @@
 
 ( function(){
 
+    const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const indiaLink = "https://youth.srmd.org/app/Events/RegisterOpenNA?EventCode=N20-07";
+    const worldLink = "https://youth.srmd.org/app/Events/RegisterOpenNA?EventCode=N20-11";
+    const indiaPrice = "Rs 500";
+    const worldPrice = "$10 USD";
+
+    const registrationLinks = document.getElementsByClassName("register-now");
+    const priceTextAreas = document.getElementsByClassName("price");
+    if(timeZone === 'Asia/Calcutta'){
+        Array.from(registrationLinks).forEach( r => r.href = indiaLink);
+        Array.from(priceTextAreas).forEach( p => p.innerHTML = indiaPrice);
+    }
+    else{
+        Array.from(registrationLinks).forEach( r => r.href = worldLink);
+        Array.from(priceTextAreas).forEach( p => p.innerHTML = worldPrice);
+    }
+
     // Initialize the Locomotive scroll
-    console.log("in index.js");
     const currentScrollContainer = document.querySelector('[data-scroll-container]');
     const scroll = new LocomotiveScroll({
         el: currentScrollContainer,
         smooth: true
     });
 
-    console.log(scroll);
     
     scroll.on('call', callValue => {
        console.log(callValue);
