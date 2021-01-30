@@ -2,8 +2,10 @@
 ( function(){
 
     const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-    const indiaLink = "https://youth.srmd.org/app/Events/RegisterOpenNA?EventCode=N20-07";
-    const worldLink = "https://youth.srmd.org/app/Events/RegisterOpenNA?EventCode=N20-11";
+    // const indiaLink = "https://youth.srmd.org/app/Events/RegisterOpenNA?EventCode=N20-07";
+    // const worldLink = "https://youth.srmd.org/app/Events/RegisterOpenNA?EventCode=N20-11";
+    const worldLink = "https://www.srmd.org/app/Events/RegisterOpenNA?EventCode=N20-10";
+    const indiaLink = "https://www.srmd.org/app/Events/RegisterOpenNA?EventCode=N20-07"
     const indiaPrice = "Rs 500";
     const worldPrice = "$10 USD";
 
