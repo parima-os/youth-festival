@@ -37,6 +37,11 @@
        fourteen.classList.add('fourteen-mobile');
    }
 
+   const aboutOnClick = () => {
+    const aboutTarget = document.getElementById("who-what");
+    scroll.scrollTo(aboutTarget);
+  }
+
     
     // scroll.on('call', callValue => {
     //    console.log(callValue);

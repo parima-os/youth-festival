@@ -999,7 +999,7 @@ h3 {
 
 .header-area .main-header-area .main-menu ul li a:hover,
 .header-area .main-header-area .main-menu ul li a:focus {
-  color: maroon!important;
+  color: #E63A8C!important;
 }
 
 @media (min-width: 992px){
