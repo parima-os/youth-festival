@@ -11,6 +11,15 @@
 	align-items: center;
  }
 
+ #features p{
+	 color: white;
+ }
+
+ .sm-icon:hover{
+  color: #E63A8C;
+}
+
+
  .feature-img{
   width: 80%; 
   height: 300px;
@@ -36,6 +45,7 @@
 .fourteen-mobile .fourteen-text{
 	font-size: 50vw;
 	color: #E63A8C;
+	font-weight: 600;
 }
 
 .fourteen-mobile h1{

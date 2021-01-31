@@ -160,9 +160,9 @@
 }
 
 .video-background-text{
-  position: relative;
-  z-index: 100;
-  background: transparent!important;
+  /* position: relative; */
+  /* z-index: 100;
+  background: transparent!important; */
 }
 
 .video-background-holder video {
@@ -777,7 +777,7 @@ h3 {
 }
 
 .serction_title_large h3 {
-  font-size: 80px;
+  font-size: 35px;
   font-weight: 700;
   color: #1f1f1f;
   display: inline-block;
@@ -792,13 +792,13 @@ h3 {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .serction_title_large h3 {
-    font-size: 45px;
+    font-size: 35px;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .serction_title_large h3 {
-    font-size: 60px;
+    font-size: 35px;
   }
 }
 
@@ -1157,7 +1157,7 @@ h3 {
 
 .slider_bg_1 {
   background-image: url(../img/banner/banner_1.png);
-  background: black;
+  /* background: black; */
 }
 
 .slider_area {
@@ -1769,6 +1769,11 @@ h3 {
 .speakers_area .single_speaker {
   margin-bottom: 90px;
   overflow: hidden;
+}
+
+.s-bold{
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 .speakers_area .single_speaker .speaker_thumb {
@@ -4924,6 +4929,10 @@ h6 {
 
 .comments-area .comment-list.left-padding {
   padding-left: 25px;
+}
+
+.sm-icon:hover{
+  color: 
 }
 
 @media (max-width: 413px) {
