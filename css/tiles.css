@@ -21,7 +21,28 @@
   object-fit: cover;
   margin-bottom: 20px;
 }
- 
+
+.fourteen-mobile{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+	grid-template-columns: 50% 50%;
+	background-color: #DCDCDC;
+}
+
+.fourteen-mobile .images-container{
+	align-self: center;
+}
+
+.fourteen-mobile .fourteen-text{
+	font-size: 50vw;
+	color: #E63A8C;
+}
+
+.fourteen-mobile h1{
+	font-size: 15px;
+  margin: 0 0 20px; 
+}
+
  .section-2 {
 	/* height: calc(300vh + 32px + 16px); */
 	height: calc(200vh);

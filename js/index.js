@@ -31,6 +31,12 @@
        scroll.update();
    })
 
+   if(scroll.isMobile){
+       const fourteen = document.getElementById("fourteen-child");
+       fourteen.classList.remove("section-2");
+       fourteen.classList.add('fourteen-mobile');
+   }
+
     
     // scroll.on('call', callValue => {
     //    console.log(callValue);

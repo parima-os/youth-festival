@@ -16,6 +16,8 @@
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <!-- <link href="css/boarding-pass.css" rel="stylesheet" /> -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTKDYXE15V"></script>
+    <script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js" crossorigin="anonymous"></script>
+    <script nomodule src="https://polyfill.io/v3/polyfill.min.js?features=Object.assign%2CElement.prototype.append%2CNodeList.prototype.forEach%2CCustomEvent%2Csmoothscroll" crossorigin="anonymous"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
@@ -23,7 +25,6 @@
 
         gtag('config', 'G-BTKDYXE15V');
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
     
 	</head>
 	<body>
@@ -116,8 +117,8 @@
                   
                 </div>
             </div>
-            <!-- <section id="fourteen">
-              <div class="section-2">
+            <section id="fourteen">
+              <div id="fourteen-child" class="section-2">
                 <div id="pinSection" class="pinned-quote">
                   <blockquote class="fourteen-text" data-scroll data-scroll-sticky data-scroll-target="#pinSection">
                     14
@@ -130,7 +131,7 @@
                     <h1>February</h1>
                 </div>
               </div>
-            </section> -->
+            </section>
             <section id="five-s" style="background-color: #010135; color: white">
               <div class="container">
                 <div class="row">

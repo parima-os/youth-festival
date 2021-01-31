@@ -250,7 +250,9 @@
   object-fit: cover
 }
 
-
+.sm-icon{
+  width: 60
+}
 
 .center{
   width: 100%;
