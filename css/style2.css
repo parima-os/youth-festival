@@ -250,16 +250,7 @@
   object-fit: cover
 }
 
-.feature-img{
-  width: 80%; 
-  height: 300px;
-  opacity: .5; 
-  padding: 20px; 
-  margin: 0 auto;
-  border: 5px solid #E63A8C; 
-  object-fit: cover;
-  margin-bottom: 20px;
-}
+
 
 .center{
   width: 100%;
