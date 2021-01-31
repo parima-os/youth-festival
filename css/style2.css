@@ -159,6 +159,12 @@
   overflow: hidden;
 }
 
+.video-background-text{
+  position: relative;
+  z-index: 100;
+  background: transparent!important;
+}
+
 .video-background-holder video {
   position: absolute;
   top: 50%;
@@ -1232,7 +1238,7 @@ h3 {
   width: 120%;
   height: 120%;
   top: -7%;
-  opacity: 0.6;
+  opacity: 1;
 }
 
 @media (max-width: 767px) {
