@@ -70,6 +70,15 @@
 	color: #96C11E!important;
 }
 
+.green-callout{
+	text-align: center;
+	padding: 40px;
+	width: 600px;
+	font-weight: 600;
+	margin: 0;
+	font-size: 1.1em;
+}
+
 
 .align-right{
 	text-align: right;
