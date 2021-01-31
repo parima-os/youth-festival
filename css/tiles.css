@@ -6,7 +6,21 @@
 
  #features .feature{
 	padding: 20px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
  }
+
+ .feature-img{
+  width: 80%; 
+  height: 300px;
+  opacity: .5; 
+  padding: 20px; 
+  margin: 0 auto;
+  border: 5px solid #E63A8C; 
+  object-fit: cover;
+  margin-bottom: 20px;
+}
  
  .section-2 {
 	/* height: calc(300vh + 32px + 16px); */

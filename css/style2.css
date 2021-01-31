@@ -243,6 +243,29 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600',endColorstr='#1bb8f9',GradientType=1 );
 }
 
+.speaker-img{
+  width: 100%; 
+  height: 100%; 
+  padding: 20px; 
+  object-fit: cover
+}
+
+.feature-img{
+  width: 80%; 
+  height: 300px;
+  opacity: .5; 
+  padding: 20px; 
+  margin: 0 auto;
+  border: 5px solid #E63A8C; 
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.center{
+  width: 100%;
+  text-align: center;
+}
+
 body {
   font-family: poppins, sans-serif;
   font-weight: 400;
