@@ -1156,11 +1156,6 @@ h3 {
   }
 }
 
-.slider_bg_1 {
-  background-image: url(../img/banner/banner_1.png);
-  /* background: black; */
-}
-
 .slider_area {
   background-size: cover;
   background-position: center center;
