@@ -11,7 +11,7 @@
 
     const registrationLinks = document.getElementsByClassName("register-now");
     const priceTextAreas = document.getElementsByClassName("price");
-    if(timeZone === 'Asia/Calcutta'){
+    if(timeZone === 'Asia/Calcutta' || timeZone === 'Asia/Singapore'){
         Array.from(registrationLinks).forEach( r => r.href = indiaLink);
         Array.from(priceTextAreas).forEach( p => p.innerHTML = indiaPrice);
     }
