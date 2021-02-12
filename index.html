@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/locomotive.css" />
     <link rel="stylesheet" href="css/tiles.css" />
     <link href="css/style2.css" rel="stylesheet" />
+    <link href="css/schedule.css" rel="stylesheet" />
     <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
     <!-- <link href="css/boarding-pass.css" rel="stylesheet" /> -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTKDYXE15V"></script>
@@ -84,6 +85,7 @@
                                 <ul id="navigation">
                                   <li><a href="#who-what" data-scroll-to>About</a></li>
                                   <li><a href="#speakers" data-scroll-to>Speakers</a></li>
+                                  <li><a href="#schedule" data-scroll-to>Schedule</a></li>
                                   <li><a href="#features" data-scroll-to>Features</a></li>
                                   <li><a href="#cause" data-scroll-to>Cause</a></li>
                                   <!-- <li><a href="Venue.html">Venue</a></li> -->
@@ -601,6 +603,80 @@
               </div>
             </div>
 
+    
+      <!--==========================
+      Schedule Section
+    ============================-->
+    <section id="schedule" class="section-with-bg">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h2>Event Schedule</h2>
+          <p>Select the timezone you would like to view.</p>
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              href="#add-schedule"
+              role="tab"
+              data-toggle="tab"
+              >Your Timezone</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ist" role="tab" data-toggle="tab"
+              >IST</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gmt" role="tab" data-toggle="tab"
+              >GMT</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#est" role="tab" data-toggle="tab"
+              >EST</a
+            >
+          </li>
+        </ul>
+
+
+        <div class="tab-content row justify-content-center">
+          <!-- Schdule Day 1 -->
+          <div
+            role="tabpanel"
+            class="col-lg-9 tab-pane fade show active"
+            id="add-schedule"
+          >
+           
+          </div>
+          <div
+            role="tabpanel"
+            class="col-lg-9 tab-pane fade show "
+            id="est"
+          >
+          
+          </div>
+          <div
+            role="tabpanel"
+            class="col-lg-9 tab-pane fade show"
+            id="gmt"
+          >
+          
+          </div>
+          <div
+            role="tabpanel"
+            class="col-lg-9 tab-pane fade show"
+            id="ist"
+          >
+          
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
     <section id="features">
       <div class="container">
         <div class="row">
@@ -811,6 +887,13 @@
         
         <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
         <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/dayjs.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.4/plugin/timezone.min.js"></script> -->
+        <script src="lib/jquery/jquery.min.js"></script>
+        <script src="lib/jquery/jquery-migrate.min.js"></script>
+        <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/spacetime"></script>
         <script src="js/index.js"></script>
+        <script src="js/schedule.js"></script>
 	</body>
 </html>
