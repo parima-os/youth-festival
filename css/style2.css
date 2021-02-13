@@ -7,6 +7,12 @@
   transition-duration: 1000ms;
 }
 
+.yf-alert{
+  margin: 0!important;
+  background-color: #E63A8C;
+  color: white;
+}
+
 a.yf-link {
   color: #f82249;
 }
