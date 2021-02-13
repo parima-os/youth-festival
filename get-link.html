@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>SRMD Youth Festival</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/slicknav.css" />
+    <link rel="stylesheet" href="css/locomotive.css" />
+    <link rel="stylesheet" href="css/tiles.css" />
+    <link href="css/style2.css" rel="stylesheet" />
+    <link href="css/schedule.css" rel="stylesheet" />
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- <link href="css/boarding-pass.css" rel="stylesheet" /> -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BTKDYXE15V"></script>
+    <script nomodule src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.6.0/polyfill.min.js" crossorigin="anonymous"></script>
+    <script nomodule src="https://polyfill.io/v3/polyfill.min.js?features=Object.assign%2CElement.prototype.append%2CNodeList.prototype.forEach%2CCustomEvent%2Csmoothscroll" crossorigin="anonymous"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-BTKDYXE15V');
+    </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '243215710774818'); 
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" 
+      src="https://www.facebook.com/tr?id=243215710774818&ev=PageView
+      &noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    
+	</head>
+	<body>
+        <div style = "background-color: #010135; color: white">
+            <div class="container" >
+                <div class="offset-md-3 col-md-6 offset-sm-4 col-sm-4">
+                    <img style="width: 100%" src="img/final-youth-logo.png" />
+                </div>
+            </div>
+        </div>
+        <div class="container" style="margin-top: 50px;">
+            <p>Please enter your form id and email address to get your link to enter the youth festival. If you do not have your form id, please contact <a href="mailto:info.youthfestival@youth.srmd.org">youthfestival@youth.srmd.org</a></p>
+            <form>
+                <div class="text-input-container">
+                    <label for="formId">Form Id:</label><br>
+                    <input class="text-input" type="text" id="formId" name="formId"><br>
+                </div>
+                <div class="text-input-container">
+                    <label for="lname">E-Mail:</label><br>
+                    <input class="text-input" type="text" id="email" name="email">
+                </div>
+                <br />
+                <input class="btn" type="button" value="Submit" id='submit' />
+              </form>
+        </div>
+        <div class="container link-container">
+            <div id="airmeetLink">
+                
+            </div>
+        </div>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"></script> -->
+        <script src="js/papaparse.min.js"></script>
+        <!-- <script src="js/sheetsee.js"></script> -->
+        <script src="js/parse-gs.js"></script>
+    </body>
+</html>

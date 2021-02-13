@@ -7,6 +7,30 @@
   transition-duration: 1000ms;
 }
 
+a.yf-link {
+  color: #f82249;
+}
+
+.text-input{
+  width: 100%;
+  padding: 10px;
+}
+
+.text-input-container{
+  margin: 20px 0;
+}
+
+
+.link-container{
+  /* border: 1px solid #00003f; */
+  padding: 40px;
+  width: 100%
+}
+
+.link-container p{
+  font-size: 1.2em;
+}
+
 .def{
   color: #96C11E;
   font-size: .8em;
