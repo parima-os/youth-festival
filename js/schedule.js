@@ -85,19 +85,19 @@ const schedule = {
     },
     "Pujya Gurudevshri Rakeshbhai: ": {
         sessionName: "Key Note Address",
-        IST: spacetime("2020-02-14 8:30PM", "Asia/Calcutta"),
+        IST: spacetime("2020-02-14 8:45PM", "Asia/Calcutta"),
         GMT: spacetime("2020-02-14 3:15PM", "Europe/London"),
         EST: spacetime("2020-02-14 10:15AM", "America/New_York"),
         
     },
     "Special Launch": {
-        IST: spacetime("2020-02-14 8:30PM", "Asia/Calcutta"),
+        IST: spacetime("2020-02-14 9:30PM", "Asia/Calcutta"),
         GMT: spacetime("2020-02-14 4:00PM", "Europe/London"),
         EST: spacetime("2020-02-14 11:00AM", "America/New_York"),
     },
     "Culture Carnival": {
         sessionName: "by Leading Artists such as <b>Kailash Kher, Radhika Sood Nayak, Indira Naik & Neeraj Arya's Kabir Cafe</b>",
-        IST: spacetime("2020-02-14 8:30PM", "Asia/Calcutta"),
+        IST: spacetime("2020-02-14 9:45PM", "Asia/Calcutta"),
         GMT: spacetime("2020-02-14 4:15PM", "Europe/London"),
         EST: spacetime("2020-02-14 11:15AM", "America/New_York"),
     },
