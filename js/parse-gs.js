@@ -51,7 +51,7 @@ document.getElementById('submit').onclick = function () {
     const row = ppData.data.filter(x => x["Form No"] === formNo)[0];
     console.log(row, row == null);
     if(row == null){
-        airmeetLink.innerHTML = `<p> A registration under that Form No does not exist. Please contact <a href="mailto:info.youthfestival@youth.srmd.org">youthfestival@youth.srmd.org</a></p>`
+        airmeetLink.innerHTML = `<p> A registration under that Form No does not exist. Please contact <a href="mailto:info.youthfestival@youth.srmd.org">info.youthfestival@youth.srmd.org</a></p>`
         return;
     }
     else if(row["Email"].trim().toLowerCase() === email.toLowerCase()){
@@ -60,7 +60,7 @@ document.getElementById('submit').onclick = function () {
         return;
     }
     else{
-        airmeetLink.innerHTML = `<p> The form number and email does not match. Try another email or please contact <a href="mailto:info.youthfestival@youth.srmd.org">youthfestival@youth.srmd.org</a></p>`
+        airmeetLink.innerHTML = `<p> The form number and email does not match. Try another email or please contact <a href="mailto:info.youthfestival@youth.srmd.org">info.youthfestival@youth.srmd.org</a></p>`
         return;
     }
 }
