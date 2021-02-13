@@ -56,7 +56,7 @@ document.getElementById('submit').onclick = function () {
     }
     else if(row["Email"].trim().toLowerCase() === email.toLowerCase()){
         const link = row["Links"];
-        airmeetLink.innerHTML = `Click here: <a href="${link}" class="yf-link link">${link}</a>`;
+        airmeetLink.innerHTML = `Click here: <a target="_blank" href="${link}" class="yf-link link">${link}</a>`;
         return;
     }
     else{
